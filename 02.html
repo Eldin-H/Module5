@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+
+           var broj = 15283
+           var cifra;
+           var sum = 0
+           var brcif = 0 
+
+           while(broj > 0) {
+                brcif++
+                cifra = broj % 10
+                sum = sum + cifra
+                broj=Math.floor (broj/10)
+           }
+           console.log(sum/brcif)
+           console.log("Kraj")
+        
+
+        </script>
+    </body>
+</html>
